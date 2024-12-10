@@ -1,0 +1,8 @@
+[[plugins]]
+package = "netlify-plugin-mastodon-alias"
+
+[plugins.inputs]
+    username = "chrisjrn"
+    instance = "social.coop"
+    # delete or comment the next line if you want "*@${ALIAS_DOMAIN}" to work rather than just "${ALIAS_USER}@${ALIAS_DOMAIN}"
+    strictUsername = "chrisjrn"
