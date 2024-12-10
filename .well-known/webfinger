@@ -1,0 +1,23 @@
+{
+  "subject": "acct:chrisjrn@social.coop",
+  "aliases": [
+    "https://social.coop/@chrisjrn",
+    "https://social.coop/users/chrisjrn"
+  ],
+  "links": [
+     {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://social.coop/@chrisjrn"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://social.coop/users/chrisjrn"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://social.coop/authorize_interaction?uri={uri}"
+    }
+  ]
+}
